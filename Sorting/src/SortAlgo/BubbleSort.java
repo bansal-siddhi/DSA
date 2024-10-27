@@ -9,9 +9,9 @@ public class BubbleSort {
 			System.out.println(i);
 	}
 
-	public static int[] bubbleSort(int[] arr, int length) {
+	public static void bubbleSort(int[] arr, int length) {
 		// O(n^2) time complexity
-		for (int i = 0; i < length - 1; i++) {
+		for (int i = 0; i < length; i++) {
 			for (int j = 0; j < length - i - 1; j++) {
 				if (arr[j] > arr[j + 1]) {
 					int temp = arr[j];
@@ -20,6 +20,5 @@ public class BubbleSort {
 				}
 			}
 		}
-		return arr;
 	}
 }
