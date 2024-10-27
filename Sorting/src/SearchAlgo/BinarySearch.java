@@ -8,6 +8,7 @@ public class BinarySearch {
 	}
 
 	public static int binarySearch(int[] arr, int start, int end, int target) {
+		// O(logn) time complexity
 		while (start <= end) {
 			int mid = start + (end - start) / 2;
 			if (arr[mid] < target)
