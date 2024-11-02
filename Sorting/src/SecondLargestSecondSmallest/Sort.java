@@ -11,6 +11,7 @@ public class Sort {
 	}
 
 	private static int[] sort(int[] arr) {
+		// time complexity: O(nlogn)
 		if (arr.length == 1)
 			return arr;
 

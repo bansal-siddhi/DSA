@@ -10,6 +10,7 @@ public class NoSort {
 	}
 
 	public static int[] secondLargestSecondSmallest(int[] arr, int len) {
+		// time complexity: O(n)
 		int largest = Integer.MIN_VALUE;
 		int sLargest = Integer.MIN_VALUE;
 		int smallest = Integer.MAX_VALUE;
