@@ -22,6 +22,8 @@ public class ReverseDLL {
 	private static Node reverseDLL(Node node) {
 		Node temp = node;
 		Node prev = null;
+		if (node == null || node.next == null)
+			return head;
 		while (temp != null) {
 			prev = temp.prev;
 			temp.prev = temp.next;
