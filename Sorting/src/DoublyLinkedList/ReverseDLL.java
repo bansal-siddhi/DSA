@@ -23,7 +23,7 @@ public class ReverseDLL {
 		Node temp = node;
 		Node prev = null;
 		if (node == null || node.next == null)
-			return head;
+			return node;
 		while (temp != null) {
 			prev = temp.prev;
 			temp.prev = temp.next;
