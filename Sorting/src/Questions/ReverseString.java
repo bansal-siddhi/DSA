@@ -4,13 +4,13 @@ public class ReverseString {
 	public static void main(String[] args) {
 		String s = "Question";
 		char[] c = s.toCharArray();
-		c = reverseSrting(c);
+		c = reverseString(c);
 		for (char ch : c) {
 			System.out.println(ch);
 		}
 	}
 
-	private static char[] reverseSrting(char[] c) {
+	private static char[] reverseString(char[] c) {
 		int start = 0;
 		int end = c.length - 1;
 		while (start <= end) {
